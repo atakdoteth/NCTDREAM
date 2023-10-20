@@ -1,0 +1,381 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [],
+  "impls": {
+    "b85014d078bccf9f69f42defbec1fcadfeb52c3cb1aa4f7c115d5207965d061b": {
+      "address": "0x93Ad21059Aa766DFED66E66F6AC67286d953890e",
+      "layout": {
+        "solcVersion": "0.8.13",
+        "storage": [
+          {
+            "label": "ownerTransferer",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "ERC721AUpgradeable",
+            "src": "erc721a-upgradeable\\contracts\\ERC721AUpgradeable.sol:42"
+          },
+          {
+            "label": "_initialized",
+            "offset": 20,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 21,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "phase",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_uint256",
+            "contract": "DreamGirls",
+            "src": "contracts\\DreamGirls.sol:21"
+          },
+          {
+            "label": "tradeLock",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_bool",
+            "contract": "DreamGirls",
+            "src": "contracts\\DreamGirls.sol:23"
+          },
+          {
+            "label": "teamMinter",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "DreamGirls",
+            "src": "contracts\\DreamGirls.sol:25"
+          },
+          {
+            "label": "maxSupply",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_uint256",
+            "contract": "DreamGirls",
+            "src": "contracts\\DreamGirls.sol:27"
+          },
+          {
+            "label": "baseURI",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_string_storage",
+            "contract": "DreamGirls",
+            "src": "contracts\\DreamGirls.sol:28"
+          },
+          {
+            "label": "SNroot",
+            "offset": 0,
+            "slot": "106",
+            "type": "t_bytes32",
+            "contract": "DreamGirls",
+            "src": "contracts\\DreamGirls.sol:31"
+          },
+          {
+            "label": "DLroot",
+            "offset": 0,
+            "slot": "107",
+            "type": "t_bytes32",
+            "contract": "DreamGirls",
+            "src": "contracts\\DreamGirls.sol:32"
+          },
+          {
+            "label": "WLroot",
+            "offset": 0,
+            "slot": "108",
+            "type": "t_bytes32",
+            "contract": "DreamGirls",
+            "src": "contracts\\DreamGirls.sol:33"
+          },
+          {
+            "label": "SNMinted",
+            "offset": 0,
+            "slot": "109",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "DreamGirls",
+            "src": "contracts\\DreamGirls.sol:36"
+          },
+          {
+            "label": "DLMinted",
+            "offset": 0,
+            "slot": "110",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "DreamGirls",
+            "src": "contracts\\DreamGirls.sol:37"
+          },
+          {
+            "label": "WLMinted",
+            "offset": 0,
+            "slot": "111",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "DreamGirls",
+            "src": "contracts\\DreamGirls.sol:38"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "59003aae1a1b9ea912a76ac97781dfb6e6dbd390db15d9d13e3b3a8c57e75e60": {
+      "address": "0xA6A013f7Db89BaaB6f35D66bB35f35b46A6b2432",
+      "txHash": "0x6884c375632f6a75feed3422a66bb72bc74e6cfda8b55d99a7869b5eef39e127",
+      "layout": {
+        "solcVersion": "0.8.13",
+        "storage": [
+          {
+            "label": "ownerTransferer",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "ERC721AUpgradeable",
+            "src": "erc721a-upgradeable\\contracts\\ERC721AUpgradeable.sol:42"
+          },
+          {
+            "label": "_initialized",
+            "offset": 20,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 21,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "phase",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_uint256",
+            "contract": "DreamGirlsV2",
+            "src": "contracts\\DreamGirlsV2.sol:21"
+          },
+          {
+            "label": "tradeLock",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_bool",
+            "contract": "DreamGirlsV2",
+            "src": "contracts\\DreamGirlsV2.sol:23"
+          },
+          {
+            "label": "teamMinter",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "DreamGirlsV2",
+            "src": "contracts\\DreamGirlsV2.sol:25"
+          },
+          {
+            "label": "maxSupply",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_uint256",
+            "contract": "DreamGirlsV2",
+            "src": "contracts\\DreamGirlsV2.sol:27"
+          },
+          {
+            "label": "baseURI",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_string_storage",
+            "contract": "DreamGirlsV2",
+            "src": "contracts\\DreamGirlsV2.sol:28"
+          },
+          {
+            "label": "SNroot",
+            "offset": 0,
+            "slot": "106",
+            "type": "t_bytes32",
+            "contract": "DreamGirlsV2",
+            "src": "contracts\\DreamGirlsV2.sol:31"
+          },
+          {
+            "label": "DLroot",
+            "offset": 0,
+            "slot": "107",
+            "type": "t_bytes32",
+            "contract": "DreamGirlsV2",
+            "src": "contracts\\DreamGirlsV2.sol:32"
+          },
+          {
+            "label": "WLroot",
+            "offset": 0,
+            "slot": "108",
+            "type": "t_bytes32",
+            "contract": "DreamGirlsV2",
+            "src": "contracts\\DreamGirlsV2.sol:33"
+          },
+          {
+            "label": "SNMinted",
+            "offset": 0,
+            "slot": "109",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "DreamGirlsV2",
+            "src": "contracts\\DreamGirlsV2.sol:36"
+          },
+          {
+            "label": "DLMinted",
+            "offset": 0,
+            "slot": "110",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "DreamGirlsV2",
+            "src": "contracts\\DreamGirlsV2.sol:37"
+          },
+          {
+            "label": "WLMinted",
+            "offset": 0,
+            "slot": "111",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "DreamGirlsV2",
+            "src": "contracts\\DreamGirlsV2.sol:38"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}
